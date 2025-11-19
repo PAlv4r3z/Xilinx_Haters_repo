@@ -1,0 +1,5 @@
+# since we already have a sum() function in python, the name would be in this case add, because a sum is adding a number to another
+# The following fuction woulld take 2 numbers as arguments and sum them
+def add(num1,num2):
+    total = num1 + num2
+    return total
