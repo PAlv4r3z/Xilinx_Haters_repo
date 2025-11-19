@@ -3,6 +3,3 @@
 def add(num1,num2):
     total = num1 + num2
     return total
-num1 = int(input("Give me a number:"))
-num2 = int(input("Give me another one:"))
-print(add(num1,num2))
