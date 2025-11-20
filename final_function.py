@@ -33,7 +33,7 @@ def calculator(operation, num1, num2):  #Evaluates operation and performs the sp
     if operation == 2:
         return multiply(num1, num2)
     if operation == 3:
-        return divide(num1, num2)
+        return division(num1, num2)
 
 operation = int(input("Type in 0 for +, 1 for -, 2 for * and 3 for /:" ))
 num1 = int(input("Insert your first number: "))
