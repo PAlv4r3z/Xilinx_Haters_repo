@@ -20,30 +20,10 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
-def add(num1,num2):
-    total = num1 + num2
-    return total
-
-def multiply(num1, num2):
-    # The following function multiplies two numbers by adding the first one as many times as the second number.
-    multiplier = 0
-    if num2 > 0:
-        for _ in range(num2):
-            multiplier += num1
-        return multiplier
-    elif num2 < 0:
-        num2 = -num2
-        for _ in range(num2):
-            multiplier += num1
-        return -(multiplier)
-    elif num2 == 0:
-        return 0
-
-def subtract(num1, num2):
-	# The following function subtracts two numbers, adding the first one the negative part of the second one
-	num2 = num2 * -1
-	operation = num1 + num2
-	return operation
+from addition import add
+from substract import subtract
+from multiply import multiply
+from division import division
 
 def calculator(operation, num1, num2):  #Evaluates operation and performs the specified operation with the numbers given
     if operation == 0:
