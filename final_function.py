@@ -29,7 +29,7 @@ def calculator(operation, num1, num2):  #Evaluates operation and performs the sp
     if operation == 0:
         return add(num1, num2)
     if operation == 1:
-        return substract(num1, num2)
+        return subtract(num1, num2)
     if operation == 2:
         return multiply(num1, num2)
     if operation == 3:
