@@ -1,4 +1,4 @@
-def division(num1: int, num2: int) -> Tuple[int, int]:
+def division(num1: int, num2: int):
     """Perform integer division using successive subtraction.
 
     Arguments:
