@@ -20,6 +20,11 @@
 #OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 #SOFTWARE.
 
+from addition import add
+from substract import subtract
+from multiply import multiply
+from division import division
+
 def calculator(operation, num1, num2):  #Evaluates operation and performs the specified operation with the numbers given
     if operation == 0:
         return add(num1, num2)
@@ -30,7 +35,7 @@ def calculator(operation, num1, num2):  #Evaluates operation and performs the sp
     if operation == 3:
         return divide(num1, num2)
 
-operation = input("Type in 0 for +, 1 for -, 2 for * and 3 for /:" )
-num1 = input("Insert your first number: ")
-num2 = input(("Insert your first number: ")
+operation = int(input("Type in 0 for +, 1 for -, 2 for * and 3 for /:" ))
+num1 = int(input("Insert your first number: "))
+num2 = int(input("Insert your first number: "))
 print(calculator(operation, num1, num2))
